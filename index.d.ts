@@ -1,14 +1,24 @@
 /**
- * My awesome module.
- * @param input Lorem ipsum.
- * @param postfix Lorem ipsum.
+ * A Uniform Resource Locator (URL). See [URL - Wikipedia](https://en.wikipedia.org/wiki/URL).
+*/
+declare type url = string
+
+/**
+ * Get the title of a URL.
+ * @param url The URL to process.
  * @example
  * ```
- * const theModule = require("the-module");
- * theModule("unicorns");
- * //=> 'unicorns & rainbows'
+ * const getURLTitle = require("get-url-title");
+ *
+ * (async () => {
+ *     await getURLTitle("https://google.com");
+ *     //=> 'Google'
+ *
+ *     await getURLTitle("https://example.com");
+ *     //=> 'Example Domain'
+ * })();
  * ```
 */
-declare function theModule(input: string, { postfix }: { postfix?: string }): string;
+declare function getURLTitle(url: url): string;
 
-export = theModule;
+export = getURLTitle;

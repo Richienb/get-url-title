@@ -1,41 +1,35 @@
-# The module [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/the-module/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/the-module)
+# Get URL Title [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/get-url-title/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/get-url-title)
 
-My awesome module.
+Get the title of a URL.
 
-[![NPM Badge](https://nodei.co/npm/the-module.png)](https://npmjs.com/package/the-module)
+[![NPM Badge](https://nodei.co/npm/get-url-title.png)](https://npmjs.com/package/get-url-title)
 
 ## Install
 
 ```sh
-npm install the-module
+npm install get-url-title
 ```
 
 ## Usage
 
 ```js
-const theModule = require("the-module");
+const getURLTitle = require("get-url-title");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+(async () => {
+    await getURLTitle("https://google.com");
+    //=> 'Google'
+
+    await getURLTitle("https://example.com");
+    //=> 'Example Domain'
+})();
 ```
 
 ## API
 
-### theModule(input, options?)
+### getURLTitle(url)
 
-#### input
+#### url
 
-Type: `string`
+Type: `string (url)`
 
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### postfix
-
-Type: `string`\
-Default: `rainbows`
-
-Lorem ipsum.
+The URL to process.

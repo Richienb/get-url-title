@@ -1,7 +1,11 @@
 "use strict"
 
-module.exports = (input, { postfix = "rainbows" } = {}) => {
-    if (typeof input !== "string") throw new TypeError(`Expected a string, got ${typeof input}`)
+const metascraper = require("metascraper")([
+    require("metascraper-title")(),
+])
+const ky = require("ky-universal")
 
-    return `${input} & ${postfix}`
-}
+module.exports = async (url) => (await metascraper({
+    html: await ky(url).text(),
+    url,
+})).title

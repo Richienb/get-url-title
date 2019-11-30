@@ -1,13 +1,8 @@
 import test from "ava"
-import theModule from "."
+import getURLTitle from "."
 
-test("main", (t) => {
-    t.throws(() => {
-        theModule(123)
-    }, {
-        instanceOf: TypeError,
-        message: "Expected a string, got number",
-    })
+test("main", async (t) => {
+    t.is(await getURLTitle("https://google.com"), "Google")
 
-    t.is(theModule("unicorns"), "unicorns & rainbows")
+    t.is(await getURLTitle("https://example.com"), "Example Domain")
 })
