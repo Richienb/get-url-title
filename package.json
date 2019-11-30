@@ -1,6 +1,6 @@
 {
     "name": "get-url-title",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Get the title of a URL.",
     "repository": "https://github.com/Richienb/get-url-title.git",
     "author": "Richie Bendall <richiebendall@gmail.com>",
