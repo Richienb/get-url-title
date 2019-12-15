@@ -288,10 +288,10 @@
   dependencies:
     arrify "^1.0.1"
 
-"@metascraper/helpers@^5.8.7":
-  version "5.8.7"
-  resolved "https://registry.yarnpkg.com/@metascraper/helpers/-/helpers-5.8.7.tgz#b05f83f2a90001f7753c18a8b1bb978bd7c2f9d9"
-  integrity sha512-gDErMAA3d1CdkGxvAG4cDi7D2+fReZpD6lzYNJ/gsq45U3Pdz7ltsAvbp4amK92bGKYYPZtnUq85Wrr+Q+e06Q==
+"@metascraper/helpers@^5.8.10", "@metascraper/helpers@^5.8.7":
+  version "5.8.10"
+  resolved "https://registry.yarnpkg.com/@metascraper/helpers/-/helpers-5.8.10.tgz#efaae1d57afca6db1f0846852fe88d1608601f13"
+  integrity sha512-o7vrlNC+wzfArTkQcQfHKT4iHUYEQYs6hoORTWN7A1dj5v8P1wl5oOs0oAc7MNGJ3nWnex3/bq/5SUWV301Arg==
   dependencies:
     audio-extensions "0.0.0"
     chrono-node "~1.3.11"
@@ -3290,11 +3290,11 @@ merge2@^1.2.3, merge2@^1.3.0:
   integrity sha512-2j4DAdlBOkiSZIsaXk4mTE3sRS02yBHAtfy127xRV3bQUFqXkjHCHLW6Scv7DwNRbIWNHH8zpnz9zMaKXIdvYw==
 
 metascraper-title@^5.8.7:
-  version "5.8.7"
-  resolved "https://registry.yarnpkg.com/metascraper-title/-/metascraper-title-5.8.7.tgz#aecbbd9515bd74d2aeafa587c83447d926508ba0"
-  integrity sha512-u+5KeJbsFKpi+pMnG71Gd49OLDQpkjiGIRTddhCZQhb45qHoTlGKN1nZuQ8nqJI6+ARWicFqtquomkaRXfBEnw==
+  version "5.8.10"
+  resolved "https://registry.yarnpkg.com/metascraper-title/-/metascraper-title-5.8.10.tgz#c25dc8e8ad7073c18c8d25db0b855f62d3d986bd"
+  integrity sha512-CauBJmLYtS+AZ9KJfnfJHp/tzUTo9yup56P/7aaOBcfVA5PWg3xdI1lVXJegmiTsBCyDEzWRVJ41f/ZlMjbAsg==
   dependencies:
-    "@metascraper/helpers" "^5.8.7"
+    "@metascraper/helpers" "^5.8.10"
     lodash "~4.17.15"
 
 metascraper@^5.8.9:
