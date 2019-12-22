@@ -288,10 +288,10 @@
   dependencies:
     arrify "^1.0.1"
 
-"@metascraper/helpers@^5.8.12":
-  version "5.8.12"
-  resolved "https://registry.yarnpkg.com/@metascraper/helpers/-/helpers-5.8.12.tgz#c4c1375a90ee9b674f8fb4d5a65cce6f5c6ce30d"
-  integrity sha512-hmaIRXWcLGFWAXFKBHECHhf3VhHrbz/iV6spPtTeYyxCVO1TX62qYigqbizZwHk4dGeU1cTtbT2YN8/RCr1RiQ==
+"@metascraper/helpers@^5.8.12", "@metascraper/helpers@^5.8.13":
+  version "5.8.13"
+  resolved "https://registry.yarnpkg.com/@metascraper/helpers/-/helpers-5.8.13.tgz#62e808812e0dfc143668c341f44fac1e09b0fa1a"
+  integrity sha512-qRQ7nfuYARxph46E0HBww3n+lKUD16QlPSz2DcL2IgmimClLngU/lsfBGjU1g+NwdPRQDersQO8uuiju1fMHRA==
   dependencies:
     audio-extensions "0.0.0"
     chrono-node "~1.3.11"
@@ -918,7 +918,7 @@ cheerio-advanced-selectors@~2.0.1:
   resolved "https://registry.yarnpkg.com/cheerio-advanced-selectors/-/cheerio-advanced-selectors-2.0.1.tgz#fb5ec70a4599e8cec1cf669c6d9b90a3fa969c48"
   integrity sha512-5wHR8bpiD5pdUtaS81A6hnJezzoDzL1TLWfK6bxnLkIgEKPV26BlOdMCcvuj3fTE7JSalsTUeNU7AOD/u6bYhw==
 
-cheerio@~1.0.0-rc.2:
+cheerio@~1.0.0-rc.3:
   version "1.0.0-rc.3"
   resolved "https://registry.yarnpkg.com/cheerio/-/cheerio-1.0.0-rc.3.tgz#094636d425b2e9c0f4eb91a46c05630c9a1a8bf6"
   integrity sha512-0td5ijfUPuubwLUu0OBoe98gZj8C/AA+RW3v67GPlGOrvxWjZmBXiBCRU+I8VEiNyJzjth40POfHiz2RB3gImA==
@@ -3293,12 +3293,12 @@ metascraper-title@^5.8.7:
     lodash "~4.17.15"
 
 metascraper@^5.8.9:
-  version "5.8.12"
-  resolved "https://registry.yarnpkg.com/metascraper/-/metascraper-5.8.12.tgz#3ee41b14864cd82a6f3cd9389c359b255ee3c2ac"
-  integrity sha512-EUKSva/cEl99/XxGEvdbTAG/hlG6/te/wWXM0Tqy3hX0MHjbZI569MBOjIf+mR6mj37XD817LUkrl99RgWMItw==
+  version "5.8.13"
+  resolved "https://registry.yarnpkg.com/metascraper/-/metascraper-5.8.13.tgz#063c793adf1a5c5e74b5218cefc5d43fde7c65a2"
+  integrity sha512-MtCp4f3KwpApS3UT9dUdP3C5n3SH7SUEvF9BFG1JhmHLsDbHPnRcCVw5533AvSemW9FCHZdNJA/L9eSgijxtcA==
   dependencies:
-    "@metascraper/helpers" "^5.8.12"
-    cheerio "~1.0.0-rc.2"
+    "@metascraper/helpers" "^5.8.13"
+    cheerio "~1.0.0-rc.3"
     cheerio-advanced-selectors "~2.0.1"
     lodash "~4.17.15"
     map-values-deep "~1.0.2"
