@@ -288,7 +288,7 @@
   dependencies:
     arrify "^1.0.1"
 
-"@metascraper/helpers@^5.10.6", "@metascraper/helpers@^5.10.7":
+"@metascraper/helpers@^5.10.7":
   version "5.10.7"
   resolved "https://registry.yarnpkg.com/@metascraper/helpers/-/helpers-5.10.7.tgz#4d330204372ce5c1afedfc3ac891fb373f72c085"
   integrity sha512-YkL4vTF4grgNTFhe9t4qsD0c5aEjxWoC0cpvMICs6JriRtedwjVfiwWhaGiTbU3pGFhmLgE9fV42wXOXGUGjMQ==
@@ -3283,11 +3283,11 @@ metascraper-title@^5.8.7:
     lodash "~4.17.15"
 
 metascraper@^5.8.9:
-  version "5.10.6"
-  resolved "https://registry.yarnpkg.com/metascraper/-/metascraper-5.10.6.tgz#d1249577a768566b86bd099cc2256df45cf05181"
-  integrity sha512-mPEDvoyHLWb0AlTE05W43vfKGgBJ99s5AYAhB4IiRgGR9uq8j7/ktTZaS/+pyFopYrEoe71L/k4KbYgNPQRASA==
+  version "5.11.0"
+  resolved "https://registry.yarnpkg.com/metascraper/-/metascraper-5.11.0.tgz#bbb25eb055c0ec03992df99c10c48057751ee56b"
+  integrity sha512-IocQqdSQnOpbai0X9Cu37w/AKeSfU513MCfaFzzcvWgI8s6mGQ1DWRFPvkx0ahtixpP0/ifE4t7ycODrtepRxQ==
   dependencies:
-    "@metascraper/helpers" "^5.10.6"
+    "@metascraper/helpers" "^5.10.7"
     cheerio "~1.0.0-rc.3"
     cheerio-advanced-selectors "~2.0.1"
     lodash "~4.17.15"
