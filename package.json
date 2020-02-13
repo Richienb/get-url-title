@@ -26,7 +26,7 @@
         "analyse"
     ],
     "dependencies": {
-        "ky": "^0.16.1",
+        "ky": "^0.17.0",
         "ky-universal": "^0.3.0",
         "metascraper": "^5.8.9",
         "metascraper-title": "^5.8.7"
