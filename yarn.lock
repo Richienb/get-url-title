@@ -288,7 +288,7 @@
   dependencies:
     arrify "^1.0.1"
 
-"@metascraper/helpers@^5.10.7", "@metascraper/helpers@^5.11.1":
+"@metascraper/helpers@^5.11.1":
   version "5.11.1"
   resolved "https://registry.yarnpkg.com/@metascraper/helpers/-/helpers-5.11.1.tgz#227fdd0caf1d33f4b24a85298a355ce7ebb451df"
   integrity sha512-oES/e6bwKBlT7WGa2ni3xbJMDx2rbFxSzbUhRX8D+Kylb8H2ThP07c7f+VXMPXWx5CPrNMai/Oyp5IczCf3v8g==
@@ -3275,11 +3275,11 @@ merge2@^1.2.3, merge2@^1.3.0:
   integrity sha512-2j4DAdlBOkiSZIsaXk4mTE3sRS02yBHAtfy127xRV3bQUFqXkjHCHLW6Scv7DwNRbIWNHH8zpnz9zMaKXIdvYw==
 
 metascraper-title@^5.8.7:
-  version "5.10.7"
-  resolved "https://registry.yarnpkg.com/metascraper-title/-/metascraper-title-5.10.7.tgz#037aaa8cbdc79d1dde186887eb2bba542281315e"
-  integrity sha512-iQYaMdGpBPj6dyk7rbP+zYo7EroC/1yY27jocAqUnMRTfrHXTR7kGucR0vi4y14BiFRLBTLSNbZbM4KAUQsFjg==
+  version "5.11.1"
+  resolved "https://registry.yarnpkg.com/metascraper-title/-/metascraper-title-5.11.1.tgz#fb32da17e71b2c64dc45d12c3602ca9330ab4bd5"
+  integrity sha512-fZ8qjf+d5ntwz/75X2r3BYD8X+tioZS1s+k9G3gfc+6ByJvrL9/ey6YzlDlU4zYqX73Vdx7+zUyy2ct0aJqWFA==
   dependencies:
-    "@metascraper/helpers" "^5.10.7"
+    "@metascraper/helpers" "^5.11.1"
     lodash "~4.17.15"
 
 metascraper@^5.8.9:
