@@ -3283,9 +3283,9 @@ metascraper-title@^5.8.7:
     lodash "~4.17.15"
 
 metascraper@^5.8.9:
-  version "5.11.2"
-  resolved "https://registry.yarnpkg.com/metascraper/-/metascraper-5.11.2.tgz#0ae47f15c040a64f33aac30dc7c464c7206bc0f3"
-  integrity sha512-Ct+ms+cpODaUMCGmLDwDvM7IS07T2ouh8wldtIj0G+lG+jt81hv7CSO38dGSS91f7mzTRhbhvTqiyWMsbGbljw==
+  version "5.11.4"
+  resolved "https://registry.yarnpkg.com/metascraper/-/metascraper-5.11.4.tgz#91f13c9f39fd824cdd9bfe8d771576b9b856598e"
+  integrity sha512-GNYAwYuGwSm3P0p2Yi3OgYqttoYj1wgUDqbfnleN7tQRMKnTFinYw6YNYVfOniuNYl+CiJH4gg9ll2QpG8tzTw==
   dependencies:
     "@metascraper/helpers" "^5.11.1"
     cheerio "~1.0.0-rc.3"
