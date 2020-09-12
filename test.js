@@ -1,8 +1,8 @@
-import test from "ava"
-import getURLTitle from "."
+const test = require("ava")
+const getUrlTitle = require(".")
 
-test("main", async (t) => {
-    t.is(await getURLTitle("https://google.com"), "Google")
+test("main", async t => {
+	t.is(await getUrlTitle("https://google.com"), "Google")
 
-    t.is(await getURLTitle("https://example.com"), "Example Domain")
+	t.is(await getUrlTitle("https://example.com"), "Example Domain")
 })

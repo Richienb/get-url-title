@@ -1,24 +1,17 @@
 /**
- * A Uniform Resource Locator (URL). See [URL - Wikipedia](https://en.wikipedia.org/wiki/URL).
-*/
-declare type url = string
+Get the title of a URL.
+@param url The url to get the title for.
+@example
+```
+const getUrlTitle = require("get-url-title")
 
-/**
- * Get the title of a URL.
- * @param url The URL to process.
- * @example
- * ```
- * const getURLTitle = require("get-url-title");
- *
- * (async () => {
- *     await getURLTitle("https://google.com");
- *     //=> 'Google'
- *
- *     await getURLTitle("https://example.com");
- *     //=> 'Example Domain'
- * })();
- * ```
-*/
-declare function getURLTitle(url: url): string;
+await getUrlTitle("https://google.com")
+//=> 'Google'
 
-export = getURLTitle;
+await getUrlTitle("https://example.com")
+//=> 'Example Domain'
+```
+*/
+declare function getUrlTitle(url: string): Promise<string>
+
+export = getUrlTitle

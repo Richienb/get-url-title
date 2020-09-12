@@ -13,23 +13,21 @@ npm install get-url-title
 ## Usage
 
 ```js
-const getURLTitle = require("get-url-title");
+const getUrlTitle = require("get-url-title")
 
-(async () => {
-    await getURLTitle("https://google.com");
-    //=> 'Google'
+await getUrlTitle("https://google.com")
+//=> 'Google'
 
-    await getURLTitle("https://example.com");
-    //=> 'Example Domain'
-})();
+await getUrlTitle("https://example.com")
+//=> 'Example Domain'
 ```
 
 ## API
 
-### getURLTitle(url)
+### getUrlTitle(url)
 
 #### url
 
-Type: `string (url)`
+Type: `string`
 
-The URL to process.
+The url to get the title for.
