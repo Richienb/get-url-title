@@ -1,4 +1,4 @@
-# Get URL Title [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/get-url-title/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/get-url-title)
+# get-url-title [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/get-url-title/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/get-url-title)
 
 Get the title of a URL.
 
